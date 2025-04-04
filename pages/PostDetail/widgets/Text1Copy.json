@@ -1,52 +1,56 @@
 {
   "animateLoading": true,
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 88,
+  "bottomRow": 7,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "backgroundColor"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontFamily": "Poppins",
+  "fontSize": "3rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "mrgwnhbdst",
-  "leftColumn": 0,
+  "key": "7mdob1l4he",
+  "leftColumn": 16,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 56,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 15,
-  "mobileTopRow": 52,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 88,
-  "originalTopRow": 84,
+  "originalBottomRow": 7,
+  "originalTopRow": 0,
   "overflow": "NONE",
-  "parentColumnSpace": 18.5625,
+  "parentColumnSpace": 10.0576171875,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 15,
+  "rightColumn": 41,
   "shouldTruncate": false,
-  "text": "My followers",
+  "text": "Fitness Routine Hub",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 84,
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "urelc4epnf",
-  "widgetName": "Follower_Text"
+  "widgetId": "pzzeehgz1t",
+  "widgetName": "Text1Copy"
 }
