@@ -1,0 +1,4 @@
+{
+  "postId": {{ appsmith.store.currentPostId }},
+	"userId": {{appsmith.store.my_id}}
+}

@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 83,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "buttonColor": "#b91c1c",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "arrow-right",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "at23z4i2f0",
+  "leftColumn": 20,
+  "minWidth": 120,
+  "mobileBottomRow": 79,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 75,
+  "needsErrorInfo": false,
+  "onClick": "{{\n(() => {\n  const foodIntake = {};\n  const foodIds = appsmith.store.foodInputList || [];\n  foodIds.forEach(id => {\n    const food = appsmith.store[`selectedFood${id}`];\n    const weight = Number(appsmith.store[`selectedWeight${id}`]);\n    if (food && !isNaN(weight)) {\n      foodIntake[food] = weight;\n    }\n  });\n\n  const exerciseData = {};\n  const exerciseIds = appsmith.store.exerciseInputList || [];\n  exerciseIds.forEach(id => {\n    const exercise = appsmith.store[`selectedExercise${id}`];\n    const duration = Number(appsmith.store[`selectedDuration${id}`]);\n    if (exercise && !isNaN(duration)) {\n      exerciseData[exercise] = duration;\n    }\n  });\n\n  const payload = {\n      date: new Date().toISOString(),\n    foodIntake,\n    exerciseData\n  };\n\n  storeValue(\"finalPayload\", payload);\n\t\n  get_dayinfo.run(() => {\n    storeValue('showCalories', true)\n  });\ncheck_challenge.run();\n})();\n}}",
+  "originalBottomRow": 83,
+  "originalTopRow": 77,
+  "parentColumnSpace": 18.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 43,
+  "text": "Check Challenge Status",
+  "topRow": 77,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "u7xzqlogdc",
+  "widgetName": "Button1"
+}

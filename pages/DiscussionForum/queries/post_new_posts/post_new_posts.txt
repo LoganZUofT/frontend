@@ -1,0 +1,12 @@
+{
+  "user": {
+    "id": "{{ appsmith.store.my_id }}"
+  },
+  "title": "{{ Title_Input.text }}",
+  "type": "{{ Select_Type.selectedOptionValue }}",
+  "body": "{{ Body_Input.text }}",
+  "likes": [],
+  "replies": [],
+  "createdAt": "{{ moment().toISOString() }}",
+  "updateAt": "{{ moment().toISOString() }}"
+}

@@ -1,0 +1,62 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{\n  !inp_name.text ||\n  !txt_signUp.text ||\n  !Weight_Input.text ||\n  !Age_Input.text ||\n  !Height_Input.text ||\n  !Gender_Select.selectedOptionValue ||\n  !Objective_Select.selectedOptionValue ||\n  !Height_Unit_Select.selectedOptionValue ||\n  !Weight_Unit_Select.selectedOptionValue\n}}\n",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "d80868s2dr",
+  "leftColumn": 2,
+  "onClick": "{{newUser.run().then(() => {\n  storeValue('my_id', newUser.data.id);\n  storeValue('my_name', inp_name.text);\n  navigateTo('UserInfo', {}, 'SAME_WINDOW');\n  showAlert('Sign up successful!', 'success');\n});}}",
+  "originalBottomRow": 46,
+  "originalTopRow": 40,
+  "parentColumnSpace": 18.1875,
+  "parentId": "kndp3fmp6z",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "SIGN UP",
+  "tooltip": "",
+  "topRow": 53,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "37kz8b1ubi",
+  "widgetName": "btn_signUp"
+}

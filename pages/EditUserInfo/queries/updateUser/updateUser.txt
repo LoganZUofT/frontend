@@ -1,0 +1,15 @@
+{
+  "id": {{ appsmith.store.my_id }},
+  "username": "{{ Username_Input.text }}",
+  "description": "{{ Description_Input.text }}",
+  "healthProfile": {
+	  "id": {{ appsmith.store.my_id }},
+    "gender": "{{ Gender_Select.selectedOptionValue }}",
+    "height": {{ parseInt(Height_Input.text) }},
+    "weight": {{ parseInt(Weight_Input.text) }},
+    "heightUnit": "{{ Height_Unit_Select.selectedOptionValue }}",
+    "weightUnit": "{{ Weight_Unit_Select.selectedOptionValue }}",
+    "age": {{ parseInt(Age_Input.text) }},
+    "objective": "{{ Objective_Select.selectedOptionValue }}"
+  }
+}

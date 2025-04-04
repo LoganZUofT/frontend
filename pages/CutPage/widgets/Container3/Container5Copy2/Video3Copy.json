@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "autoPlay": false,
+  "backgroundColor": "#000",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0wbugkuw4g",
+  "leftColumn": 21,
+  "mobileBottomRow": 29,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 44,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 12.38311767578125,
+  "parentId": "ka1u6vcfw6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "topRow": 1,
+  "type": "VIDEO_WIDGET",
+  "url": "https://www.youtube.com/watch?v=9UQ60VlHiQ4",
+  "version": 1,
+  "widgetId": "onx9x26ce4",
+  "widgetName": "Video3Copy"
+}

@@ -1,0 +1,145 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 36,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton16e3s1xxko.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton7tal01cukq.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton31oea6d3ja.buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton16e3s1xxko.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton7tal01cukq.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton31oea6d3ja.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconName": "user",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "User Info",
+      "menuItems": {
+        "menuItemvsyu2pbpur": {
+          "id": "menuItemvsyu2pbpur",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Menu Item",
+          "widgetId": "2e64y9v297"
+        }
+      },
+      "onClick": "{{navigateTo('UserInfo', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton16e3s1xxko": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "calculator",
+      "id": "groupButton16e3s1xxko",
+      "index": 1,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Calorie Calculation",
+      "menuItems": {},
+      "onClick": "{{navigateTo('CalorieCalculation', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "2dtn7k4g6x"
+    },
+    "groupButton31oea6d3ja": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "calendar",
+      "id": "groupButton31oea6d3ja",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Calendar",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Calendar', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "idjme0ogxf"
+    },
+    "groupButton7tal01cukq": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "layers",
+      "id": "groupButton7tal01cukq",
+      "index": 2,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Discussion Forum",
+      "menuItems": {},
+      "onClick": "{{navigateTo('DiscussionForum', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "3ml9ieqdgj"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vkg1gqxxy9",
+  "leftColumn": 54,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "orientation": "vertical",
+  "originalBottomRow": 81,
+  "originalTopRow": 48,
+  "parentColumnSpace": 18.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 0,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "xrqarig2yz",
+  "widgetName": "Navigation_Menu"
+}

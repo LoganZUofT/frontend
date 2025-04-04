@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 34,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "ft2m9hy2fw",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Post Type",
+  "labelTextColor": "#18181b",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 50,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 34,
+  "originalTopRow": 26,
+  "parentColumnSpace": 18.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 58,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"DISCUSSION\",\n    \"code\": \"DISCUSSION\"\n  },\n  {\n    \"name\": \"QUESTION\",\n    \"code\": \"QUESTION\"\n  },\n  {\n    \"name\": \"GUIDE\",\n    \"code\": \"GUIDE\"\n  },\n  {\n    \"name\": \"LOG\",\n    \"code\": \"LOG\"\n  },\n  {\n    \"name\": \"REVIEW\",\n    \"code\": \"REVIEW\"\n  }\n]",
+  "topRow": 26,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "6h6iy8e6j0",
+  "widgetName": "Select_Type"
+}

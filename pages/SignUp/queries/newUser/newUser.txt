@@ -1,0 +1,12 @@
+{
+  "username": "{{ inp_name.text }}",
+  "healthProfile": {
+    "gender": "{{ Gender_Select.selectedOptionValue }}",
+    "height": {{ Height_Input.text }},
+    "heightUnit": "{{ Height_Unit_Select.selectedOptionValue }}",
+    "weight": {{ Weight_Input.text }},
+    "weightUnit": "{{ Weight_Unit_Select.selectedOptionValue }}",
+    "age": {{ Age_Input.text }},
+    "objective": "{{ Objective_Select.selectedOptionValue }}"
+  }
+}

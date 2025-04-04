@@ -1,0 +1,4 @@
+{
+  "postId": {{ appsmith.store.currentPostId}},
+  "content": "{{ inp_reply.text }}"
+}

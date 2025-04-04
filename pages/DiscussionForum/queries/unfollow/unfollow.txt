@@ -1,0 +1,4 @@
+{
+  "id": {{appsmith.store.my_id}},
+  "followingId": {{get_specific_user.data.id}}
+}

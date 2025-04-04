@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "heart",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yjc7mv33nw",
+  "leftColumn": 8,
+  "minWidth": 50,
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 45,
+  "needsErrorInfo": false,
+  "onClick": "{{post_likes.run().then(() => {\n  showAlert('liked this post successfully!', 'success');\n});}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 17,
+  "parentColumnSpace": 9.4013671875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 10,
+  "topRow": 17,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "3s08riv1wz",
+  "widgetName": "Like_Button"
+}
