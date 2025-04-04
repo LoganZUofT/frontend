@@ -1,49 +1,56 @@
 {
   "animateLoading": true,
+  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 7,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "Poppins",
-  "fontSize": "1.875rem",
+  "fontSize": "3rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "e4z7f3h532",
-  "leftColumn": 0,
+  "key": "7mdob1l4he",
+  "leftColumn": 18,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 8,
-  "mobileLeftColumn": 15,
-  "mobileRightColumn": 31,
-  "mobileTopRow": 4,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 8,
+  "originalBottomRow": 7,
   "originalTopRow": 0,
   "overflow": "NONE",
-  "parentColumnSpace": 21.625,
-  "parentId": "buk8y6d3x4",
+  "parentColumnSpace": 10.0576171875,
+  "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 43,
   "shouldTruncate": false,
-  "text": "This is your personal CUT workout plan",
-  "textAlign": "CENTER",
-  "textColor": "#b91c1c",
+  "text": "Fitness Routine Hub",
+  "textAlign": "LEFT",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "7su2doh7vh",
-  "widgetName": "Text3"
+  "widgetId": "tokfjz92jp",
+  "widgetName": "Text1"
 }
